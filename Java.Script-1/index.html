@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contador </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Contador Interativo</h1>
+    <div id="contador">0</div>
+    <button onclick="Adição()">Adição</button>
+    <button onclick="Subtração()">Subtração</button>
+    <button onclick="Reiniciar()">Reiniciar</button>
+
+    <script>
+
+        let valor = 0;
+
+        function atualizartela() {
+            document.getElementById("contador").textContent = valor;
+        }
+
+        function Adição() {
+            valor++;
+            atualizartela();
+        }
+
+        function Subtração() {
+            valor--;
+            atualizartela();
+        }
+
+        function Reiniciar() {
+            valor = 0;
+            atualizartela();
+        }
+
+    </script>
+</body>
+</html>
