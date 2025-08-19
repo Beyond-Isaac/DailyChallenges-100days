@@ -1,0 +1,7 @@
+body{
+    color: darkblue;
+    font-family: verdana;   
+    font-size: x-large; 
+}
+/*  Nessa atividade ele queria que eu aplicasse as mudanças de cor diretamente pelo body */
+/* E eles ficam nessa cor ou tamanho (iguais), porque todos são filhos de body. */

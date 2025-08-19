@@ -1,0 +1,12 @@
+p {
+    color: blue;
+}
+
+.caixa {
+    background-color: lightslategrey;
+}
+
+#titulo {
+    color: red;
+}
+/* Na atividade 1 ele queria que eu criasse um Id e um Classe. Como pode se observar eu crie um id que é titulo e uma classe chamada caixa.  */

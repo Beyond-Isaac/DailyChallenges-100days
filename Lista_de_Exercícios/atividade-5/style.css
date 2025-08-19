@@ -1,0 +1,14 @@
+#cabeçalho {
+    color: green;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    
+}
+.conteudo {
+    color: lightgreen;
+    font-family: arial;
+    border: 1px solid rgb(255, 0, 0);
+    /* Tamanho, tipo e cor. Isso serve para configurar a borda. Usando crtl e espaço tem como ver as opções para modificar. */
+
+}
