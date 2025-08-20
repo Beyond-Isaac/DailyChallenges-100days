@@ -1,0 +1,12 @@
+body {
+    background-color: coral;
+    text-decoration: black;
+    align-items: center;           
+    margin: 0;        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
