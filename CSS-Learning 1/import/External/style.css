@@ -1,0 +1,19 @@
+body {
+    background-color: lightsteelblue;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+/* para não ter anderline */
+a{
+    text-decoration: none;
+}
+/* plano de fundo */
+#footer{
+    background-color: rgb(255, 255, 255);
+    margin-top: 1500px;
+}
+.voltar{
+    color: rgb(0, 0, 0);
+}
