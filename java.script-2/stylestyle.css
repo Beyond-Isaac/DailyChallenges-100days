@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5f9ea0;
+}
+
+main {
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+.Relógio {
+    width: 800px;
+    height: 800px;
+    background-color: #7fffd4;
+    border-radius: 800px;
+    border: 15px groove #000000;
+}
+
+.number {
+    font-size: 1.4rem;
+    font-weight: 800;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 5px;  
+}            
