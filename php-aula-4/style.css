@@ -1,0 +1,27 @@
+body {
+    background-color: #505050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    
+}
+
+main {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    
+}
+
+select {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
