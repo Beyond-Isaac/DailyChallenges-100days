@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Dividir Despesa</title>
+</head>
+<body>
+    <h2>Dividir valor em parcelas</h2>
+
+    <form action="script0.php" method="post">
+        <p>
+            <label for="valor">Informe o valor total (R$):</label><br>
+            <input type="number" id="valor" name="valor" step="0.01" required>
+        </p>
+
+        <p>
+            <label for="qtd">Quantidade de parcelas (2 a 12):</label><br>
+            <input type="number" id="qtd" name="parcelas" required>
+        </p>
+
+        <button type="submit">Gerar parcelas</button>
+    </form>
+</body>
+</html>
