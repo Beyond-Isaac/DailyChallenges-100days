@@ -1,0 +1,8 @@
+p {
+    font-size: 1em;
+    color: #dda0dd;
+    text-align: center;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;    
+}

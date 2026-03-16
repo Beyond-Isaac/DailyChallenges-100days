@@ -1,0 +1,55 @@
+/* Configuração da Barra de Navegação */
+.navbar {
+  background-color: #000000; /* Um azul escuro elegante */
+  padding: 1rem 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Logo na esquerda, itens na direita */
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Estilo do Logo */
+.navbar-logo {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-logo::after {
+  content: 'My Angular Crud'; /* Texto temporário para o seu logo */
+}
+
+/* Lista de Links */
+.navbar-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px; /* Espaçamento entre os itens */
+}
+
+.navbar-item a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.navbar-item a:hover {
+  color: #3498db; /* Muda para um azul claro */
+}
+
+/* Ajuste para o seu "Olá Professor" que já está no arquivo */
+h1 {
+  font-size: 5em;
+  text-align: center;
+  margin-top: 100px;
+  color: #2c3e50;
+}
