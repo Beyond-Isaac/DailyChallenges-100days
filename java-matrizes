@@ -1,0 +1,83 @@
+//usei o netbeans para fazer esse código. Demorei bastante tempo e ainda ficou horrível
+
+package matrizes;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Matrizes {
+
+    private static int linha;
+    private static int coluna;
+ 
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        float[][] matriz = new float [3][3];
+        float[] somaLinha = new float [3];
+        float[] somaColuna = new float[3];
+        float somaDiagonal = 0;
+        float soma = 0;
+       
+             
+          for (linha = 0; linha < 3; linha++){
+            for (coluna = 0; coluna < 3; coluna++) {
+                System.out.println ("Pão de queijo: " + matriz[linha][coluna]);
+               
+                System.out.println("Digite o valor do elemtento na linha: " + linha + " E agora a coluna: " + coluna );
+          matriz [linha][coluna] = entrada.nextFloat(); {}
+            }
+      }    
+             System.out.println("\n tabela: ");
+             
+          for (linha = 0; linha < 3; linha++){
+            for (coluna = 0; coluna < 3; coluna++) {
+                System.out.printf ("%8.3f", matriz[linha][coluna]);
+     
+            } System.out.println("\n");
+      }      
+         
+          System.out.print("Soma dos elementos da matriz: ");
+           
+          System.out.println("\n");
+         
+          for (linha = 0; linha < 3; linha++){
+            for (coluna = 0; coluna < 3; coluna++)
+            soma += matriz[linha][coluna]; {
+    }
+ }
+                System.out.print (soma);    
+               
+          System.out.println("\nSoma dos elementos da matriz na linha: ");
+         
+          for (linha = 0; linha < 3; linha++){
+            for (coluna = 0; coluna < 3; coluna++)
+            somaLinha [linha] += matriz[linha][linha]; {
+    }
+            System.out.println(Arrays.toString(somaLinha));
+ }
+         
+           for (int j = 0; j < 3; j++) {
+            for (int linha = 0; linha < 3; linha++) {
+             somaColuna[coluna] += matriz[linha][coluna];  
+            }
+           
+            System.out.println("A soma da coluna " +coluna+ " é: " +somaColuna [coluna]);
+        }
+       
+        for (int coluna = 0; coluna < 3; coluna++) {
+            for (int linha = 0; linha < 3; linha++) {
+             somaColuna[coluna] += matriz[linha][coluna];  
+            }
+           
+            System.out.println("A soma da coluna " +coluna+ " é: " +somaColuna [coluna]);
+        }
+         
+        for (int linha = 0; linha < 3; linha++) {
+            somaDiagonal += matriz[linha][linha];
+        }
+        System.out.println("A soma da diagonal é " + somaDiagonal);
+       
+    }
+}
+   }
+}
